@@ -55,6 +55,7 @@ Expense-Tracker/
 ### 1️⃣ Clone the Repository
 git clone https://github.com/Pavankasala/Expense-Tracker.git
 cd Expense-Tracker
+
 ###2️⃣ Install Dependencies
 pip install -r requirements.txt
 
@@ -66,6 +67,7 @@ http://127.0.0.1:8000/docs
 Interactive Swagger UI will be available.
 
 ###🔌 API Endpoints
+
 ###➕ Add Expense
 
 POST /expenses
