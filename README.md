@@ -51,91 +51,96 @@ Expense-Tracker/
 ---
 
 ## 🚀 Getting Started
-
+---
 ## 1️⃣ Clone the Repository
 git clone https://github.com/Pavankasala/Expense-Tracker.git
 cd Expense-Tracker
 
-##2️⃣ Install Dependencies
+---
+
+## 2️⃣ Install Dependencies
 pip install -r requirements.txt
 
-##3️⃣ Run the Server
+---
+
+## 3️⃣ Run the Server
 python -m uvicorn app:app --reload
 
-##4️⃣ Open API Docs
+---
+
+## 4️⃣ Open API Docs
 http://127.0.0.1:8000/docs
+
 Interactive Swagger UI will be available.
 
-##🔌 API Endpoints
+---
 
-##➕ Add Expense
+## 🔌 API Endpoints
 
+### ➕ Add Expense
 POST /expenses
 
+Request Body:
 {
   "amount": 250,
   "category": "Food",
   "description": "Lunch"
 }
 
-##📄 Get All Expenses
+---
 
+### 📄 Get All Expenses
 GET /expenses
 
-##❌ Delete Expense
+---
 
+### ❌ Delete Expense
 DELETE /expenses/{expense_id}
 
-##📊 Category Analytics
+---
 
+### 📊 Category Analytics
 GET /analytics/category
 
 Response Example:
-
 {
   "Food": 1200,
   "Travel": 800
 }
 
-##📅 Monthly Analytics
+---
 
+### 📅 Monthly Analytics
 GET /analytics/monthly
 
 Response Example:
-
 {
   "2025-01": 3200,
   "2025-02": 1800
 }
 
-##🧠 Design Decisions:
+---
 
-Used UUID-based identifiers for safe and stable deletion
+## 🧠 Design Decisions
+- Used UUID-based identifiers for safe and stable deletion
+- Implemented clean architecture for readability and scalability
+- Separated analytics logic for easier testing and maintenance
+- Started with JSON persistence for simplicity, with clear upgrade paths
 
-Implemented clean architecture for readability and scalability
+---
 
-Separated analytics logic for easier testing and maintenance
+## 🔮 Future Enhancements
+- Replace JSON with SQLite / PostgreSQL
+- Add authentication (API Key / JWT)
+- Export analytics to CSV
+- Dockerize the application
+- Add automated tests
 
-Started with JSON persistence for simplicity, with clear upgrade paths
+---
 
-##🔮 Future Enhancements:
-
-Replace JSON with SQLite / PostgreSQL
-
-Add authentication (API Key / JWT)
-
-Export analytics to CSV
-
-Dockerize the application
-
-Add automated tests
-
-##👤 Author
-
+## 👤 Author
 Pavan Sai Kasala
 
-GitHub: https://github.com/Pavankasala
-
-LinkedIn: https://www.linkedin.com/in/pavan-kasala-3499a8272
-
+GitHub: https://github.com/Pavankasala  
+LinkedIn: https://www.linkedin.com/in/pavan-kasala-3499a8272  
 Email: pavankasala999@gmail.com
