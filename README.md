@@ -28,8 +28,6 @@ This project demonstrates **backend development**, **API design**, **data aggreg
 ---
 
 ## 🗂 Project Structure
-
-```text
 Expense-Tracker/
 ├── app.py            # Application entry point
 ├── routes.py         # API routes
