@@ -42,19 +42,19 @@ Expense-Tracker/
 
 ---
 
-## 🛠 Tech Stack
+🛠 Tech Stack
 
-- **Language:** Python 3.13  
-- **Framework:** FastAPI  
-- **Server:** Uvicorn  
-- **Validation:** Pydantic  
-- **Storage:** JSON (file-based persistence)  
+- Language: Python 3.13  
+- Framework: FastAPI  
+- Server: Uvicorn  
+- Validation: Pydantic  
+- Storage: JSON (file-based persistence)  
 
 ---
 
-## 🚀 Getting Started
+🚀 Getting Started
 
-### 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
 git clone https://github.com/Pavankasala/Expense-Tracker.git
 cd Expense-Tracker
 2️⃣ Install Dependencies
