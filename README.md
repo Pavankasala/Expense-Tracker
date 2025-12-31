@@ -40,33 +40,33 @@ Expense-Tracker/
 
 ---
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
-- Language: Python 3.13  
-- Framework: FastAPI  
-- Server: Uvicorn  
-- Validation: Pydantic  
-- Storage: JSON (file-based persistence)  
+- **Language:** Python 3.13  
+- **Framework:** FastAPI  
+- **Server:** Uvicorn  
+- **Validation:** Pydantic  
+- **Storage:** JSON (file-based persistence)  
 
 ---
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 git clone https://github.com/Pavankasala/Expense-Tracker.git
 cd Expense-Tracker
-2️⃣ Install Dependencies
+###2️⃣ Install Dependencies
 pip install -r requirements.txt
 
-3️⃣ Run the Server
+###3️⃣ Run the Server
 python -m uvicorn app:app --reload
 
-4️⃣ Open API Docs
+###4️⃣ Open API Docs
 http://127.0.0.1:8000/docs
 Interactive Swagger UI will be available.
 
-🔌 API Endpoints
-➕ Add Expense
+###🔌 API Endpoints
+###➕ Add Expense
 
 POST /expenses
 
@@ -76,15 +76,15 @@ POST /expenses
   "description": "Lunch"
 }
 
-📄 Get All Expenses
+###📄 Get All Expenses
 
 GET /expenses
 
-❌ Delete Expense
+###❌ Delete Expense
 
 DELETE /expenses/{expense_id}
 
-📊 Category Analytics
+###📊 Category Analytics
 
 GET /analytics/category
 
@@ -95,7 +95,7 @@ Response Example:
   "Travel": 800
 }
 
-📅 Monthly Analytics
+###📅 Monthly Analytics
 
 GET /analytics/monthly
 
@@ -106,7 +106,7 @@ Response Example:
   "2025-02": 1800
 }
 
-🧠 Design Decisions:
+###🧠 Design Decisions:
 
 Used UUID-based identifiers for safe and stable deletion
 
@@ -116,7 +116,7 @@ Separated analytics logic for easier testing and maintenance
 
 Started with JSON persistence for simplicity, with clear upgrade paths
 
-🔮 Future Enhancements:
+###🔮 Future Enhancements:
 
 Replace JSON with SQLite / PostgreSQL
 
@@ -128,7 +128,7 @@ Dockerize the application
 
 Add automated tests
 
-👤 Author
+###👤 Author
 
 Pavan Sai Kasala
 
