@@ -28,16 +28,18 @@ This project demonstrates **backend development**, **API design**, **data aggreg
 ---
 
 ## 🗂 Project Structure
-Expense-Tracker/
-              ├── app.py            # Application entry point
-              ├── routes.py         # API routes
-              ├── models.py         # Pydantic schemas
-              ├── storage.py        # Data persistence layer
-              ├── analytics.py      # Business & analytics logic
-              ├── data.json         # Persistent storage
-              ├── requirements.txt
-              └── README.md
 
+```text
+Expense-Tracker/
+├── app.py            # Application entry point
+├── routes.py         # API routes
+├── models.py         # Pydantic schemas
+├── storage.py        # Data persistence layer
+├── analytics.py      # Business & analytics logic
+├── data.json         # Persistent storage
+├── requirements.txt
+└── README.md
+```
 ---
 
 ## 🛠 Tech Stack
